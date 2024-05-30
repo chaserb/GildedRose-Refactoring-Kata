@@ -8,7 +8,6 @@ import org.approvaltests.Approvals;
 import org.approvaltests.reporters.DiffReporter;
 import org.approvaltests.reporters.UseReporter;
 import org.junit.jupiter.api.Test;
-import org.w3c.dom.Text;
 
 @UseReporter(DiffReporter.class)
 public class GildedRoseApprovalTest {
@@ -35,4 +34,5 @@ public class GildedRoseApprovalTest {
 
         Approvals.verify(output);
     }
+
 }

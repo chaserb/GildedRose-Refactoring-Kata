@@ -13,12 +13,12 @@ The simplest way is to just clone the code and start hacking away improving the 
 
 You could write some unit tests yourself, using the requirements to identify suitable test cases. I've provided a failing unit test in a popular test framework as a starting point for most languages.
 
-The idea of the exercise is to do some deliberate practice, and improve your skills at designing test cases and refactoring. The idea is not to re-write the code from scratch, but rather to practice taking small steps, running the tests often, and incrementally improving the design. 
+The idea of the exercise is to do some deliberate practice, and improve your skills at designing test cases and refactoring. The idea is not to re-write the code from scratch, but rather to practice taking small steps, running the tests often, and incrementally improving the design.
 
 Please don't send me a pull request with your solution. It can be a bit confusing since GitHub encourages you to do so! Please only send me pull requests if you have a correction or improvement to the starting position. You don't want to spoil the fun of doing the exercise for other people!
 
 
-### Gilded Rose Requirements 
+### Gilded Rose Requirements
 
 - [Requirements](GildedRoseRequirements.md)
 
@@ -38,7 +38,7 @@ is also really useful for practicing writing good tests using different framewor
 
 ## Translating this code
 
-More translations are most welcome! I'm very open for pull requests that translate the starting position into additional languages. 
+More translations are most welcome! I'm very open for pull requests that translate the starting position into additional languages.
 
 Please note a translation should ideally include:
 
@@ -46,6 +46,6 @@ Please note a translation should ideally include:
 - one failing unit test complaining that "fixme" != "foo"
 - a TextTest fixture, ie a command-line program that runs update_quality on the sample data for the number of days specified.
 
-Please don't write too much code in the starting position or add too many unit tests. The idea with the one failing unit test is to tempt people to work out how to fix it, discover it wasn't that hard, and now they understand what this test is doing they realize they can improve it.  
+Please don't write too much code in the starting position or add too many unit tests. The idea with the one failing unit test is to tempt people to work out how to fix it, discover it wasn't that hard, and now they understand what this test is doing they realize they can improve it.
 
 If your programming language doesn't have an easy way to add a command-line interface, then the TextTest fixture is probably not necessary.
